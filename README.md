@@ -46,17 +46,14 @@ V2ray控制脚本，向导式更改端口，加密方式，传输协议，享受
 ## 安装命令
 
 ```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/v2ray.fun/master/install.sh && bash install.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/KiriKira/v2ray.fun/kiriMod/install.sh && bash install.sh
 ```
 
-## 升级命令
-```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/v2ray.fun/master/upgrade.sh && bash upgrade.sh && rm -rf upgrade.sh
-```
+#不提供升级。因为不喜欢。
 
 ## 卸载命令
 ```bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/v2ray.fun/master/uninstall.sh && bash uninstall.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/KiriKira/v2ray.fun/kiriMod/uninstall.sh && bash uninstall.sh
 ```
 
 ## 更新日志
@@ -67,6 +64,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/v2
 **2017.10.16**
 新增TLS功能，自动获取证书。
 
+**2017.11.25**
+原作者删库，接手魔改但未准备拓展新功能。
+
 ## 特别说明
 
 有任何问题或者新功能想法欢迎提交 Issue，我会抽空回答。
@@ -75,4 +75,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/v2
 
 ## 感谢
 
+https://github.com/FunctionClub/V2ray.fun （一个不存在的项目）
 V2ray : [https://v2ray.com](https://v2ray.com)
